@@ -1,4 +1,4 @@
-const Post = require('../node-js/models/post');
+const Post = require('../models/post');
 
 const handleError = (res, error) => {
   res.status(500).send(error.message);

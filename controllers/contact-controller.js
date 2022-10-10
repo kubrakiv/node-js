@@ -1,5 +1,5 @@
-const Contact = require('../node-js/models/contact');
-const createPath = require('../node-js/helpers/create-path');
+const Contact = require('../models/contact');
+const createPath = require('../helpers/create-path');
 
 const getContacts = (req, res) => {
   const title = 'Contacts';
@@ -10,7 +10,7 @@ const getContacts = (req, res) => {
       console.log(error);
       res.render(createPath('error'), { title: 'Error' });
     });
-};
+}
 
 module.exports = {
   getContacts,
