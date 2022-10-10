@@ -11,14 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/kubrakiv/node-js.git"
   },
-  "author": "Yauhen Kavalchuk",
+  "author": "Ivan Kubrak",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kubrakiv/node-js/issues"
   },
   "homepage": "https://github.com/kubrakiv/node-js#readme",
   "devDependencies": {
-    "nodemon": "^8.10.0"
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
     "chalk": "^5.1.0",
@@ -30,6 +30,6 @@
     "morgan": "^1.10.0"
   },
   "engine": {
-    "node": "16.17.0"
+    "node": "^16.17.1"
   }
 }
